@@ -1,8 +1,15 @@
-readme
+README.md 
+Sell Permissions?
 
-1.What is the Shell? Shell is an environment in which we can run our commands, programs, and shell scripts.
+What is the Shell? Shell is an environment in which we can run our commands, programs, and shell scripts.
 
 2.Different Classifications of Shell Commands
+=======
+
+What is the Shell? Shell is an environment in which we can run our commands, programs, and shell scripts.
+
+Different Classifications of Shell Commands
+>>>>>>> fe1df41114df49b75e10e638cae936ced9e1e54d
 
 Program Executables (File System Commands)
 
@@ -19,13 +26,23 @@ Linux Shell Built-in Commands
 0-current_working_directory (consists of the command pwd or print working director
 y, prints the complete path of the current working directory.)
 
+<<<<<<< HEAD
+=======
+0-current_working_directory (consists of the command pwd or print working directory, prints the complete path of the current working directory.)
+
+>>>>>>> fe1df41114df49b75e10e638cae936ced9e1e54d
 1-listit (lsList information about the files the current directory by default).
 
 2-bring_me_home (consists of command cd(“change directory”) command is used to change the current working directory in Linux and other Unix-like operating systems)
 
 3-listfiles (consists of command ls -l that shows files and directories in long format)
 
+<<<<<<< HEAD
 4-listmorefiles (consists of command ls -l -a or you can type ls -a -l or ls -la or ls -al lists the contents of files and directories in long format & in this case including hidden files which start with .)
+=======
+4-listmorefiles (consists of command ls -l -a or you can type ls -a -l or ls -la or ls -al lists the contents of files and directories in long format & in this case 
+including hidden files which start with .)
+>>>>>>> fe1df41114df49b75e10e638cae936ced9e1e54d
 
 5-listfilesdigitonly (consists of command ls -l -a -n or you can type ls -lan to display files in long format including hidden files along with all files numerical content.)
 
@@ -45,11 +62,20 @@ y, prints the complete path of the current working directory.)
 
 13-symbolic_link (consists of command ln it is used to create a hard link or a symbolic link (symlink) to an existing file or directory.)
 
+<<<<<<< HEAD
 14-copy_html (consists of command cp -rua* that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+=======
+14-copy_html (consists of command cp -rua* that copies all the HTML files from the current working directory to the parent of the working directory, but only copy 
+files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+>>>>>>> fe1df41114df49b75e10e638cae936ced9e1e54d
 
 15-lets_move (consists of command mv [A-Z]* that moves all files beginning uppercase letters to a directory.
 
 16-clean_emacs (consists of command rm ~* deletes all files in the current working directory that end with a specific character .
 
+<<<<<<< HEAD
 17-tree (consists of command mkdir -p that creates the given directories as reques
 ted in the current directory.
+=======
+17-tree (consists of command mkdir -p that creates the given directories as requested in the current directory. 
+>>>>>>> fe1df41114df49b75e10e638cae936ced9e1e54d
