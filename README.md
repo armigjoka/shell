@@ -1,5 +1,5 @@
 README.md 
-Shell Permissions
+Shell Basics
 
 What is the Shell? Shell is an environment in which we can run our commands, programs, and shell scripts.
 
