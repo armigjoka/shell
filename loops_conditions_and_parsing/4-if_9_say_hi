@@ -9,7 +9,6 @@ do
     if [ $i = 3 ]
 
     then
-
 	echo "bad luck"
 
     elif [ $i = 7 ]
@@ -18,7 +17,6 @@ do
 	echo "good luck";
     else
 	echo"Best School"
-
     fi
 
     (( i++ ))
