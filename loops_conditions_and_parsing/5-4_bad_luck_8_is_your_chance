@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
-# Bash script that displays Best School 10 times, but for the 9th iteration, displays Best School and then Hi on a new line
+# Bash script that displays bad luck for the 4th loop iteration, displays good luck for 8th loop iteration and displays Best School for the other iterations.
 
-i=1
+i=0
 
-while [$i -lt 10 ]
+while [ $i -lt 10 ]
 do
-    if [$i -eq 3]
+    if [ $i -eq 3 ]
     then
 	echo "bad luck"
-	if [$i -eq 7]
-	   then 
-	echo "good luck"
+	elif [ $i -eq 7 ]
+	then  
+	    echo "good luck"
     else
-	echo "Best School"
-    fi
-    (( i++ ))
-    done 
+	    echo "Best School"
+	fi
+	(( i++ ))
+done 
