@@ -2,4 +2,4 @@
 # Script that displays the parsed Apache logs to show only the IP and HTTP_code using the mawk command
 
 cat apache-access.log | awk '{print $1,$9}'
-cmd <apache-access.log |..' or 'cmd apacha-access | ..'instead
+
