@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Script that displays the parsed Apache logs to show only the IP and HTTP_code using the mawk command
 
-mawk -W dump -F ' ' f1 f9 apache-access.log
-
+cat apache-access.log | awk '{print $1,$9}'
