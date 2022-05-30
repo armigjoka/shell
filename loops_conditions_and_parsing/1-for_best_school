@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-for i in {1...10} do Best School; done
+for ((i=1; i<=10; i++)) do
+echo "Best School 10 times: "$i done 
