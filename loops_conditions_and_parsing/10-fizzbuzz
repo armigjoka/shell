@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Script that displays numbers 1-100. Replaces any number with FizzBuzz for which are a multiple of both 3 and 5, Fizz for multiples of 3 and Buzz for multiples of 5. Any other numbers displayed as is.
+
+    for (( i=1; i<=100; i++ ))
+    do
+	if (( i%3==0 )) && (( i%5==0 ))
+	then
+	    echo FizzBuzz
+	elif (( i%3==0 ))
+	then
+	    echo Fizz
+	elif
+	    (( i%5==0 ))
+	then
+	    echo Buzz
+	else
+	    echo $i
+	fi
+
+	done
