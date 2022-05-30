@@ -2,7 +2,8 @@
 # This script is displaying "Best School" 10 times done
 i=0
 while [$i -lt 10]
-do
+do      
 echo "Best School"
-((i++))   
+((i++))
 done
+
