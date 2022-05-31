@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #The script that displays PID, along with the process name, of processes whose name contain the word bash.
-pgrep echo "PID of the first script:4555$$"
-echo "PID of the second script:4557$$"
+pgrep  "PID of the first script:$$"
+"PID of the second script:$$"
 
