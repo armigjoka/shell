@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Script that displays the parsed Apache logs to show IP and HTTP_code using the mawk command in the desending order sorted by occurence.
+
+awk '{print $1,$9}' apache-access.log | IFS='.| ' sort -n -t. -k1,1 -k2,2 -k3,3 -k4,4 | uniq -c | sort -n -r
+
+
+
+
