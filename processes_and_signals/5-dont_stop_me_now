@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Script that stops 4-to_infinity_and-beyond process
-kill -TERM PID
+kill -9 <processIFD>
 
