@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-#The script that displays PID, along with the process name, of processes whose name contain the word bash.
+#The script that displays PID, along with the process name, of processes whose namecontain the word bash.
+
 echo "$$"
 
