@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 #The script that displays PID, along with the process name, of processes whose name contain the word bash.
-pgrep echo "$!"
+pgrep echo "PID of the first iteration:4555$$"
+echo "PID of the second iteration:4557$$"
+
