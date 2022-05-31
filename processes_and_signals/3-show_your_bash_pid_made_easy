@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #The script that displays PID, along with the process name, of processes whose name contain the word bash.
-pgrep -ef | grep script_name | tr -s ' ' | cut -d ' ' -f2
+pgrep -u root sshd
 
