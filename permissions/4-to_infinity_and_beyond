@@ -2,5 +2,5 @@
 
 # Script that stops 4-to_infinity_and_beyond process
 #9 is SIGKULL
-pkill -9 -f "4-to_infinity_and_beyond"
+pkill -9 -f
 
