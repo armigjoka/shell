@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Script that kills 7-highlander
-sudo kill
+kill -9 $
+
