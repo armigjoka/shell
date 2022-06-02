@@ -3,17 +3,17 @@
 if [ "$1" == 'start' ]
 then
     echo "$!" >> "/var/run/my_process.pid"
-    echo "My process started"
+    echo "manage_my_process started"
 elif [ "$1" == 'stop' ]
   then
     echo "$!" >> "/var/run/my_process.pid"
-    echo "My process stopped"
+    echo "manage_my_process stopped"
     pkill -f "./my_process.pid"
     rm /var/run/my_process.pid
 elif [ "$1" == 'restart' ]
 then
     echo "$!" >> "/var/run/my_process.pid"
-    echo "My process restated"
+    echo "manage_my_process restated"
     pkill -f "./my_process.pid"
     rm /var/run/my_process.pid
 else
