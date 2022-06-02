@@ -23,3 +23,4 @@ es, including those which may not have TTY, in a hiearchy order.
 8-beheaded_process Script that deletes highlander.
 
 10-process_and_pid_file Creates the file /var/run/myscript.pid containing its PID, displays a message indefinitely, and does several other thing based on the signal.
+11-manage_my_process Script that manages bg process manage_my_process. Either starting, stopping or restarting the other process and creating a file storing its PID.
