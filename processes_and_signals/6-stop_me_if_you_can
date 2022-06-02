@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script that stops 6-stop_me_if_you_can process
-kill [ -9 ] PID
+# Script that stops 4-stop_me_if_you_can process
+pkill -f  4-stop_me_if_you_can process
 
 
