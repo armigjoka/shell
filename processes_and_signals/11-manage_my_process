@@ -5,18 +5,16 @@ if [ $1 =='start']
 then
     echo "$ >>/var/run/my_process.pid"
     echo "My process started"
-elif [ $1 == 'start']
-if [ $1 == 'stop']
+elif [ $1 == 'stop']
 then 
     echo "$ >>/var/run/my_process.pid"
     echo "My process stopped"
-elif [$1 == 'stop']
 if [$1 == 'restart']
 then
     echo "$ >>/var/run/my_process.pid"
     echo "My process restated"
-elif [$1 == 'restart']
 sudo kill 
 else 
 echo "Usage: manage_my_process {start|stop|restart}"
 echo "$$">>|rm -rf manage_my_process_
+done
