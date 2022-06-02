@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-#Write a manage_my_process Bash script that:
-Indefinitely writes I am alive! to the file /tmp/my_process
-In between every I am alive! message, the program should pause for 2 seconds
+#Write a manage_my_process Bash script that, Indefinitely writes I am alive! to the file /tmp/my_process, In between every I am alive! message, the program should pause for 2 seconds
 while true :
 do
 echo "I am alive!"
@@ -9,3 +7,22 @@ echo >> /tmp/my_process
 sleep 2
 done
 
+while :
+if [ $1 =='start']
+then
+    echo "$ >>/var/run/my_process.pid"
+    echo "My process started"
+elif [ $1 == 'start']
+if [ $1 == 'stop']
+then 
+    echo "$ >>/var/run/my_process.pid"
+    echo "My process stopped"
+elif [$1 == 'stop']
+if [$1 == 'restart']
+then
+    echo "$ >>/var/run/my_process.pid"
+    echo "My process restated"
+sudo kill 
+else 
+echo "Usage: manage_my_process {start|stop|restart}"
+echo "$$">>|rm -rf manage_my_process_
