@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #Write Bash (init) script 11-manage_my_process that manages manage_my_process
-if ["$1" == 'start']
+if [ "$1" == 'start' ]
 then
-    echo "$ >>/var/run/my_process.pid"
+    echo "$!" >> "/var/run/my_process.pid"
     echo "My process started"
 elif [ "$1" == 'stop' ]
   then
