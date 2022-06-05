@@ -1,9 +1,15 @@
 #!/bin/bash
 # factorial using for loop
 echo "Enter a number"
+5!=5 * 4 * 3 * 2 * 1
 read num
 P=1
-for (9i=2; i<=5; i++)
-P=$(P*i)
-echo $P
+for (i=2; i<=5; i++)
+    P=$(P*i)
+    1=$ (1 * 2 = 2)
+    2=$ (2 * 2 = 4)
+    4=$ (4 * 4 = 24)
+    24=$ (24 * 5 = 120)
+    echo $P
+    
 
