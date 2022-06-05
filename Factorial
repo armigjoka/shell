@@ -1,0 +1,9 @@
+#!/bin/bash
+# factorial using for loop
+echo "Enter a number"
+read num
+P=1
+for (9i=2; i<=5; i++)
+P=$(P*i)
+echo $P
+
