@@ -1,0 +1,21 @@
+##!/bin/bash
+#Your task is to identify what is that secret number.
+biggest-100 # maximum number possible
+guess=0 # number of player
+guesses=0 # number of guesses made
+number=$'(($$ % $biggest))'random number,between 1 and $biggest
+
+while [ $guess -ne $number]
+do
+echo -n " Guess? " ; readd guess
+if [ "$guess" -lt $number ] ;
+then
+echo "Our secret number is bigger!"
+elif [ "$guess" -gt $number ] ;
+then
+echo "Our secret number is smaller!i"
+fi
+guesses=$(($guesses + 1))
+done
+echo "Correct! You guessed <the_number> in <this_many> guesses"
+exit 0
