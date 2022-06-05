@@ -1,12 +1,11 @@
-#!/bin/bash#0
+#!/bin/bash
 #shell script to find sum of n numbers using for loop
-echo "Enter Size (N)"
-read N
+echo "Enter Size (n)"
+read n
 i=1
 sum=0
-
-echo "Enter Numbers
-while [$i -le $N]
+echo "Enter Numbers"
+while [$i -le $n]
 do
 read num    #get number
 sum=$((sum+num)) #sum+=num
